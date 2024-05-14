@@ -1,0 +1,22 @@
+.aboutFooter {
+    padding-bottom: 3%;
+}
+
+.about-redirection {
+    width: 100%;
+    color: #ffffff;
+    margin-top: 9%;
+    height: 27vh;
+    background-image: url("https://t3.ftcdn.net/jpg/03/26/61/00/240_F_326610062_NBlAHDP8JTPnp8vJ2pofSRUvYMTSj1Cx.jpg");
+    background-size: cover;
+}
+
+.redirectionAboutStructure {
+    width: 60%;
+    height: 21vh;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

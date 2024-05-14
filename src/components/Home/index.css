@@ -1,0 +1,240 @@
+.specialEffect {
+    background: linear-gradient(to bottom, #FF8C00, #FFFFFF);
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heroClass {
+    border-radius: 8px;
+    margin: 5% auto 0 auto;
+    padding-bottom: 0;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons {
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon {
+    cursor: pointer;
+    color: #000000;
+}
+
+.instagram:hover {
+    color: #ff69b4;
+}
+
+.linkedin:hover {
+    color: #0077b5;
+}
+
+.text {
+    font-size: 21px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email {
+    transform: rotate(-90deg);
+    padding-bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.services {
+    width: 90%;
+    margin: 12% auto 0 auto;
+    padding-bottom: 0;
+}
+
+.serviceHeading {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 2%;
+}
+
+.cardsContainer {
+    padding: 3%;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 2%;
+    margin-top: 2%;
+    border: 1px solid orange;
+    border-radius: 9px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card:hover {
+    border: 2px solid darkorange;
+}
+
+.whatWeOffer {
+    width: 90%;
+    margin: 12% auto 0 auto;
+    padding-bottom: 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutUs {
+    border-radius: 8px;
+    width: 40%;
+}
+
+.aboutText {
+    width: 50%;
+}
+
+.aboutHeading {
+    margin: 0;
+    padding: 2% 0 2% 0;
+}
+
+.aboutDescript {
+    font-weight: 400;
+}
+
+.getFeaturedOn {
+    width: 90%;
+    margin: 12% auto 0 auto;
+}
+
+.heading {
+    text-align: center;
+}
+
+.featuredImages {
+    padding: 1%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+.featured-image-div {
+    width: 21%;
+    margin-top: 4%;
+    position: relative;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+.featured-image {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    background: linear-gradient(to top, #FF8C00, #FFFFFF);
+    width: 100%;
+    padding-top: 2%;
+    margin: 12% auto 1% auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.branding {
+    padding-bottom: 2%;
+    width: 27%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLogo {
+    width: 50%;
+}
+
+.footerLinks {
+    width: 20%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-services {
+    margin-left: 5%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    margin-left: 5%;
+}
+
+.copyright {
+    margin-top: 3%;
+}
+
+.ourClients {
+    width: 90%;
+    margin: 12% auto 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clientImagesContainer {
+    margin-top: 3%;
+    width: 88%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.clientImages {
+    height: 100px;
+    width: 100px;
+    margin-top: 1%;
+    border-radius: 8px;
+}
+
+.tieupCompanies {
+    width:70%;
+    margin: 12% auto 0 auto;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tieupCompaniesImages {
+    height: 120px;
+    width: 120px;
+    margin: 2%;
+    border-radius: 8px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}

@@ -1,0 +1,43 @@
+.navbar {
+    height: 9vh;
+    width: 90%;
+    padding-bottom: 0;
+    margin: 0 auto 0 auto;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appLogo {
+    width: 8%;
+    padding-bottom: 0;
+    border-radius: 5px;
+    align-self: stretch;
+}
+
+.logoImage {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.linksList {
+    list-style-type: none;
+    width: 27%;
+    padding-left: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    text-decoration: solid;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
