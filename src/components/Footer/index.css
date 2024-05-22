@@ -1,0 +1,52 @@
+.footer {
+    width: 100%;
+    padding-top: 1%;
+    margin: 12% auto 1% auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.branding {
+    padding-bottom: 2%;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footerLogo {
+    width: 50%;
+}
+
+.footerLinks {
+    width: 20%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brandLogo {
+    color: #000000;
+    cursor: pointer;
+}
+
+.footer-services {
+    margin-left: 5%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    margin-left: 5%;
+}
+
+.copyright {
+    width: 30%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
