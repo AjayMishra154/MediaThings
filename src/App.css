@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+}
+body{
+  background-color: #e3cdba;
+  
+}
+h1{
+  font-family: 'Alice', sans-serif;
+  color: #5C4033;
+
+}
+nav :hover{
+  color: #5C4033;
 }

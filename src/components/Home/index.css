@@ -3,6 +3,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* background-image: url("https://i.pinimg.com/564x/90/f7/3d/90f73dcd783bef8b3eb9f2cf9087a8a4.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   background-size: cover; */
 }
 
 .heroClass {
@@ -15,6 +20,7 @@
     justify-content: space-around;
     align-items: center;
     overflow-y: hidden;
+
 }
 
 .icons {
@@ -49,6 +55,9 @@
 
 .textHeading {
     font-size: 21px;
+    font-weight: 200;
+    color: #000;
+    font-style: italic;
     margin-bottom: 2%;
     text-align: left;
 }
