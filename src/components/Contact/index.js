@@ -53,7 +53,7 @@ const Contact = () => {
             </div>
             <div className='mapContainer'>
                     <Link target='_blank' to="https://www.google.com/maps?q=5V44+QJ4+Conwood+Paragon,+Opp+Indian+Oil+Petrol+Pump,+Near,+Cama+Industrial+Estate,+Goregaon,+Mumbai,+Maharashtra+400063&ftid=0x3be7b792c5915d07:0x7d3846fa3a474b14&entry=gps&lucs=,47071704,47069508,94212614,47084304&g_ep=CAISDTYuMTA1LjIuNDYzMzAYACCenQoqJCw0NzA3MTcwNCw0NzA2OTUwOCw5NDIxMjYxNCw0NzA4NDMwNEICSU4%3D&g_st=iw">
-                        <img src="/mapImage.jpg" alt="mapImage" className='mapImage' />
+                        <img src="/mapImage.png" alt="mapImage" className='mapImage' />
                     </Link>
             </div>
             <Footer />

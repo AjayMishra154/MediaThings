@@ -36,7 +36,7 @@ const Footer = () => {
                     <ul>
                         <li>Digital Marketing</li>
                         <li>Press Release</li>
-                        <li>Press Confirence</li>
+                        <li>Press Conference</li>
                         <li>Product Launch</li>
                         <li>Media Training</li>
                         <li>Wikipedia Page</li>

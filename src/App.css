@@ -19,3 +19,6 @@ h1{
 nav :hover{
   color: #5C4033;
 }
+*{
+  font-style: normal;
+}

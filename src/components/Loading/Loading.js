@@ -7,7 +7,7 @@ const Loading = () => {
     <>
     <div id="loading-container">
     <svg
-  class="container" 
+  class="container1" 
   x="0px" 
   y="0px"
   viewBox="0 0 55 23.1"
@@ -34,7 +34,7 @@ const Loading = () => {
 
 
 
-      <h1>Loading.....</h1>
+      <h1 className="loading-text">Loading.....</h1>
       <br />
       <img src="/logo1.png" alt="Loading..." id="loading-logo" />
     </div>
