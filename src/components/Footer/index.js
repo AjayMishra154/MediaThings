@@ -34,11 +34,14 @@ const Footer = () => {
                 <div className='footer-services'>
                     <h1>Services</h1>
                     <ul>
+                        <li>Digital Marketing</li>
                         <li>Press Release</li>
                         <li>Press Confirence</li>
                         <li>Product Launch</li>
                         <li>Media Training</li>
                         <li>Wikipedia Page</li>
+                        <li>Advertorial</li>
+                        <li>Influencer Management</li>
                     </ul>
                 </div>
                 <div className='contact'>

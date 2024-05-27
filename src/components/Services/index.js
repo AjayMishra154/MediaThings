@@ -11,28 +11,30 @@ const Services = () => {
         )
     }
     const services = [
-        {service: 'Press Release', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.'},
-        {service: 'Press Conference', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.'},
-        {service: 'Product Launch', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.'},
-        {service: 'Wikipedia Page', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.'},
-        {service: 'Advetorial', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.'},
-        {service: 'Media Training', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.'},
-        {service: 'Influencer Management', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.'},
-        {service: 'Media Tracking', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.'},
-        {service: 'Digital Marketing', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.'},
+        {service: 'Digital Marketing', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus ', img: '/services/share-icon.svg'},
+        {service: 'Press Release', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi .', img: '/services/newspaper.svg'},
+        {service: 'Press Conference', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus mo dolorum.', img: '/services/podcast.svg'},
+        {service: 'Product Launch', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi.', img: '/services/rocket.svg'},
+        {service: 'Wikipedia Page', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi.', img: '/services/globe.svg'},
+        {service: 'Advertorial', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ra.', img: '/services/bullhorn.svg'},
+        {service: 'Media Training', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi.', img: '/services/person-chalkboard.svg'},
+        {service: 'Influencer Management', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducim in dolorum.', img: '/services/handshake.svg'},
+        {service: 'Media Tracking', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi.', img: '/services/magnifying-glass.svg'},
+        // {service: 'Digital Marketing', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.', img: '/services/bullseye.svg'},
     ]
     return (
         <>
             <div className='specialEffect'>
                 <Navbar />
                 <div className='empty-div'>
-                    <h1 className='serviceHeading1'>Our Services</h1>
+                    <h1 className='serviceHeading1'>What we offer</h1>
                 </div>
             </div>
             <div className='services'>
                 <div className='cardsContainer1'>
                 {services.map(eachService => (
                     <div className='card'>
+                                <img src={eachService.img} alt="" className='serviceImage' />
                                 <h3>{eachService.service}</h3>
                                 <p>{eachService.serviceDescript}</p>
                     </div>

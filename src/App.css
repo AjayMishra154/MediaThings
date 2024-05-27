@@ -11,8 +11,9 @@ body{
   
 }
 h1{
-  font-family: 'Alice', sans-serif;
-  color: #5C4033;
+  /* font-family: 'Alice', sans-serif; */
+  /* color: #5C4033; */
+  color: #EB4D1A;
 
 }
 nav :hover{

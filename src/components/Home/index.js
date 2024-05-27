@@ -70,15 +70,16 @@ class Home extends Component {
         )
         const featuredImages = ['/getFeaturedImages/bombaytimes.png.webp', '/getFeaturedImages/cosmopolitan.png.webp', '/getFeaturedImages/healthshots.png.webp', '/getFeaturedImages/healthsite.png.webp', '/getFeaturedImages/Mid-Day.png.webp', '/getFeaturedImages/pinkvilla.png.webp', '/getfeaturedImages/thestatesman.png.webp', '/getFeaturedImages/vouge.png.webp']
         const services = [
-            {service: 'Press Release', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.', img: '/services/newspaper.svg'},
-            {service: 'Press Conference', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.', img: '/services/podcast.svg'},
-            {service: 'Product Launch', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.', img: '/services/rocket.svg'},
-            {service: 'Wikipedia Page', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.', img: '/services/globe.svg'},
-            {service: 'Advetorial', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.', img: '/services/bullhorn.svg'},
-            {service: 'Media Training', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.', img: '/services/person-chalkboard.svg'},
-            {service: 'Influencer Management', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.', img: '/services/handshake.svg'},
-            {service: 'Media Tracking', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.', img: '/services/magnifying-glass.svg'},
-            {service: 'Digital Marketing', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.', img: '/services/bullseye.svg'},
+            {service: 'Digital Marketing', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus ', img: '/services/share-icon.svg'},
+            {service: 'Press Release', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi .', img: '/services/newspaper.svg'},
+            {service: 'Press Conference', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus mo dolorum.', img: '/services/podcast.svg'},
+            {service: 'Product Launch', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi.', img: '/services/rocket.svg'},
+            {service: 'Wikipedia Page', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi.', img: '/services/globe.svg'},
+            {service: 'Advertorial', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ra.', img: '/services/bullhorn.svg'},
+            {service: 'Media Training', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi.', img: '/services/person-chalkboard.svg'},
+            {service: 'Influencer Management', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducim in dolorum.', img: '/services/handshake.svg'},
+            {service: 'Media Tracking', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi.', img: '/services/magnifying-glass.svg'},
+            // {service: 'Digital Marketing', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.', img: '/services/bullseye.svg'},
         ]
         return (
             <>
@@ -108,6 +109,7 @@ class Home extends Component {
                             Our principles are at the heart of all we do. We put in a lot of effort to ensure
                             that everything we do is accurate. Not only for ourselves, but also for the
                             people we work with.
+                            Our Motto: Energy, Respect, Passion, Integration
                         </h1>
                         <h1 className='textHeading'>Our Motto: Energy, Respect, Passion, Integration</h1>
                     </div>
@@ -115,7 +117,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className='services'>
-                <h1 className='serviceHeading'>Our Services</h1>
+                <h1 className='serviceHeading'>What we offer</h1>
                 <div className='cardsContainer'>
                     {services.map(eachService => (
                             <div className='card'>
@@ -128,8 +130,8 @@ class Home extends Component {
               </div>
               <div className='whatWeOffer'>
                     <div className='aboutText'>
-                        <h1>What we offer</h1>
-                        <h3 className='aboutHeading'>Little Story About Us</h3>
+                        {/* <h1>What we offer</h1> */}
+                        <h1 className='heading'>Little Story About Us</h1>
                         <p className='aboutDescript'>
                             Anshu Ahuja established Media Things in the year 2021 with an aim to bring her proactive attitude and innate affinity for everything "media" to the forefront of the public relations
                             landscape. She commenced her career working with various PR agencies, handling a diverse range of clients. Today, with over 12 years of experience, Anshu and her team are dedicated to

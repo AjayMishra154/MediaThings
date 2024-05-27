@@ -10,7 +10,7 @@
 }
 
 .logoLink {
-    width: 12%;
+    width: 14%;
 }
 
 .logo {
@@ -29,7 +29,9 @@
     align-items: center;
     transition: all 1s ease; /* Add transition for smoothness */
 }
-
+.links:hover{
+    color: #EB4D1A;
+}
 .links {
     text-decoration: solid;
     font-size: 18px;
