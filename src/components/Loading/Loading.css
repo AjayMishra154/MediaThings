@@ -10,12 +10,15 @@
   justify-content: center;
   align-items: center;
   z-index: 1000; /* Ensure it covers the entire page */
+  
 }
 
 #loading-logo {
-  width: 150px; /* Adjust size as needed */
+  width: 200px; /* Adjust size as needed */
   margin-top: 20px; /* Add margin to separate from other elements */
   animation: logoAnimation 1.5s ease-in-out infinite;
+  /* padding-bottom: 4%; */
+  margin-bottom: 4%;
 }
 
 @keyframes logoAnimation {
@@ -28,7 +31,7 @@
 }
 
  .loading-text{
-  font-size: 24px;
+  font-size: 30px;
   color: #EB4D1A;
   margin: 20px 0; /* Add margin to separate from other elements */
   animation: textAnimation 1.5s ease-in-out infinite;

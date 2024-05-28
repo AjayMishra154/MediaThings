@@ -3,22 +3,23 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url("https://img.freepik.com/premium-vector/abstract-watercolor-textured-background-design-your-date-postcard-banner-logo_187069-13994.jpg");
+    /* background-image: url("https://img.freepik.com/premium-vector/abstract-watercolor-textured-background-design-your-date-postcard-banner-logo_187069-13994.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
    background-size: cover;
-   padding-bottom: 3%;
+   padding-bottom: 3%; */
+   background-color: white;
 }
 
 .heroClass {
     border-radius: 8px;
     margin: 5% auto 0 auto;
     padding: 0;
-    width: 90%;
+    width: 80%;
     height: 40vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     overflow-y: hidden;
 
@@ -36,11 +37,11 @@
     color: #000;
 }
 
-.instagram:hover {
+.instagram {
     color: #ff69b4;
 }
 
-.linkedin:hover {
+.linkedin{
     color: #0077b5;
 }
 
@@ -60,7 +61,7 @@
     color: #000;
     /* font-style: italic; */
     margin-bottom: 2%;
-    text-align: left;
+    text-align: justify;
 }
 
 .email {
@@ -281,7 +282,7 @@
     animation-direction: reverse;
     animation-delay: calc(var(--duration) / -2);
 }
-  
+
 @keyframes scroll {
     0% {
       transform: translateX(0);
@@ -297,6 +298,7 @@
     --gap: var(--space);
     display: flex;
     overflow: hidden;
+    position: relative;
     width: 90%;
     margin: 0 auto 0 auto;
     user-select: none;
@@ -368,3 +370,38 @@ ul {
     list-style: none;
     padding-left: 0;
 }
+
+.clientImageWrapper {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.clientImages {
+    display: block;
+    width: 500px; 
+    height: auto;
+}
+ .clientName {
+    visibility: hidden;
+    
+    color: #EB4D1A;
+    /* background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff; */
+    text-align: justify;
+    /* border-radius: 6px; */
+    /* padding: 5px 0;
+    position: absolute; */
+    bottom: 125%;  
+    left: 50%;
+    /* margin-left: 15px; */
+    opacity: 0;
+    transition: opacity 0.3s;  
+    font-weight: 600; 
+ }  
+.clientImageWrapper:hover .clientName {
+    visibility: visible; 
+    opacity: 1; 
+ }
+
+

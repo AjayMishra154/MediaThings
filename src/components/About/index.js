@@ -18,7 +18,7 @@ const About = () => {
                         <h1>Little Story About Us</h1>
                         {/* <h3 className='aboutHeading'>Little Story About Us</h3> */}
                         <p className='aboutDescript'>
-                            Anshu Ahuja established Media Things in the year 2021 with an aim to bring her proactive attitude and innate affinity for everything "media" to the forefront of the public relations
+                            Anshu Ahuja established Media Things  with an aim to bring her proactive attitude and innate affinity for everything "media" to the forefront of the public relations
                             landscape. She commenced her career working with various PR agencies, handling a diverse range of clients. Today, with over 12 years of experience, Anshu and her team are dedicated to
                             providing innovative and effective PR solutions. <br/><br/> Clients across various industries, including lifestyle, hospitality, pharmaceuticals, healthcare, logistics, and entertainment, recognize
                             her strengths in understanding their requirements and delivering creative and strategic PR approaches. With an unwavering commitment to excellence, Anshu, as a co-founder of Media Things,

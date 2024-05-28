@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-align: justify;
 
 }
 body{
@@ -19,6 +20,6 @@ h1{
 nav :hover{
   color: #5C4033;
 }
-*{
+/* *{
   font-style: normal;
-}
+} */

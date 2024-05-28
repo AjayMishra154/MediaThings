@@ -42,43 +42,58 @@ class Home extends Component {
             </div>
         )
         const OurClientsScroller = () => (
-            <div class="marque">
-                <div class="marque__group">
-                    <img src='/clientImages/AnkitMehra.png' alt='AnkitMehra' className='clientImages' />
-                    <img src='/clientImages/debashi.png' alt='debashi' className='clientImages' />
-                    <img src='/clientImages/kiran.png' alt='kiran' className='clientImages' />
-                    <img src='/clientImages/madhu.png' alt='madhu' className='clientImages' />
-                    <img src='/clientImages/shikha.png' alt='shikha' className='clientImages' />
-                    <img src='/clientImages/shuti.png' alt='shuti' className='clientImages' />
-                    <img src='/clientImages/Tina.png' alt='Tina' className='clientImages' />
-                    <img src='/clientImages/Trishna.png' alt='Trishna' className='clientImages' />
-                    <img src='/clientImages/Twinkle.png' alt='Twinkle' className='clientImages' />
+            <div className="marque">
+                <div className="marque__group">
+                    {[
+                        { src: '/clientImages/AnkitMehra.png', alt: 'Ankita Mehra' },
+                        { src: '/clientImages/debashi.png', alt: 'Dr Debashi' },
+                        { src: '/clientImages/kiran.png', alt: 'Dr kiran Rukadikar' },
+                        { src: '/clientImages/madhu.png', alt: 'Dr Madhu Chopra' },
+                        { src: '/clientImages/shikha.png', alt: 'shikha Khanna' },
+                        { src: '/clientImages/shuti.png', alt: 'Dr shuti Khare Shukla' },
+                        { src: '/clientImages/Tina.png', alt: 'Ms Tina Vinod' },
+                        { src: '/clientImages/Trishna.png', alt: 'Dr Trishna Gupte' },
+                        { src: '/clientImages/Twinkle.png', alt: 'Twinkle Jain' },
+                    ].map(client => (
+                        <div className="clientImageWrapper" key={client.alt}>
+                            <img src={client.src} alt={client.alt} className="clientImages" />
+                            <span className="clientName">{client.alt}</span>
+                        </div>
+                    ))}
                 </div>
-  
-                <div aria-hidden="true" class="marque__group">
-                    <img src='/clientImages/AnkitMehra.png' alt='AnkitMehra' className='clientImages' />
-                    <img src='/clientImages/debashi.png' alt='debashi' className='clientImages' />
-                    <img src='/clientImages/kiran.png' alt='kiran' className='clientImages' />
-                    <img src='/clientImages/madhu.png' alt='madhu' className='clientImages' />
-                    <img src='/clientImages/shikha.png' alt='shikha' className='clientImages' />
-                    <img src='/clientImages/shuti.png' alt='shuti' className='clientImages' />
-                    <img src='/clientImages/Tina.png' alt='Tina' className='clientImages' />
-                    <img src='/clientImages/Trishna.png' alt='Trishna' className='clientImages' />
-                    <img src='/clientImages/Twinkle.png' alt='Twinkle' className='clientImages' />
+        
+                <div aria-hidden="true" className="marque__group">
+                    {[
+                        { src: '/clientImages/AnkitMehra.png', alt: 'Ankita Mehra' },
+                        { src: '/clientImages/debashi.png', alt: 'Dr Debashi' },
+                        { src: '/clientImages/kiran.png', alt: 'Dr kiran Rukadikar' },
+                        { src: '/clientImages/madhu.png', alt: 'Dr Madhu Chopra' },
+                        { src: '/clientImages/shikha.png', alt: 'shikha Khanna' },
+                        { src: '/clientImages/shuti.png', alt: 'Dr shuti Khare Shukla' },
+                        { src: '/clientImages/Tina.png', alt: 'Ms Tina Vinod' },
+                        { src: '/clientImages/Trishna.png', alt: 'Dr Trishna Gupte' },
+                        { src: '/clientImages/Twinkle.png', alt: 'Twinkle Jain' },
+                    ].map(client => (
+                        <div className="clientImageWrapper" key={client.alt}>
+                            <img src={client.src} alt={client.alt} className="clientImages" />
+                            <span className="clientName">{client.alt}</span>
+                        </div>
+                    ))}
                 </div>
             </div>
-        )
+        );
+        
         const featuredImages = ['/getFeaturedImages/bombaytimes.png.webp', '/getFeaturedImages/cosmopolitan.png.webp', '/getFeaturedImages/healthshots.png.webp', '/getFeaturedImages/healthsite.png.webp', '/getFeaturedImages/Mid-Day.png.webp', '/getFeaturedImages/pinkvilla.png.webp', '/getfeaturedImages/thestatesman.png.webp', '/getFeaturedImages/vouge.png.webp']
         const services = [
             {service: 'Digital Marketing', serviceDescript: 'Enhance your online presence with our comprehensive digital marketing services. We specialize in SEO, social media strategies, and targeted advertising to drive traffic and boost conversions.', img: '/services/share-icon.svg'},
             {service: 'Press Release', serviceDescript: 'Ensure your news reaches the right audience with our press release dissemination service. We distribute your announcements to top media outlets, journalists, and industry influencers for maximum impact.', img: '/services/newspaper.svg'},
             {service: 'Press Conference', serviceDescript: 'Organize impactful press conferences with our expert assistance. From venue selection to media invitations and on-site management, we ensure your message is delivered effectively to the press.', img: '/services/podcast.svg'},
             {service: 'Product Launch', serviceDescript: 'Make your product launch unforgettable with our end-to-end event planning and promotion services. We handle everything from pre-launch buzz to post-launch analysis, ensuring a successful debut.', img: '/services/rocket.svg'},
-            {service: 'Wikipedia Page', serviceDescript: "Enhance your online credibility with a professionally crafted Wikipedia page. Our team of experienced writers ensures your page meets Wikipedia's guidelines and reflects your brand accurately.", img: '/services/globe.svg'},
-            {service: 'Advertorial', serviceDescript: 'Blend advertising with storytelling through our engaging advertorials. We create compelling content that subtly promotes your brand while providing valuable information to readers.', img: '/services/bullhorn.svg'},
-            {service: 'Media Training', serviceDescript: 'Prepare your spokespeople for media interactions with our comprehensive media training. We offer practical techniques and personalized coaching to help them communicate effectively and confidently.', img: '/services/person-chalkboard.svg'},
             {service: 'Influencer Management', serviceDescript: "Maximize your brand's reach with our influencer management services. We identify and collaborate with key influencers in your industry to create authentic and impactful campaigns..", img: '/services/handshake.svg'},
+            {service: 'Wikipedia Page', serviceDescript: "Enhance your online credibility with a professionally crafted Wikipedia page. Our team of experienced writers ensures your page meets Wikipedia's guidelines and reflects your brand accurately.", img: '/services/globe.svg'},
+            {service: 'Media Training', serviceDescript: 'Prepare your spokespeople for media interactions with our comprehensive media training. We offer practical techniques and personalized coaching to help them communicate effectively and confidently.', img: '/services/person-chalkboard.svg'},   
             {service: 'Media Tracking', serviceDescript: 'Stay informed with our media tracking services. We monitor and analyze media coverage of your brand, providing insights and reports to help you understand and respond to public perception.', img: '/services/magnifying-glass.svg'},
+            {service: 'Advertorial', serviceDescript: 'Blend advertising with storytelling through our engaging advertorials. We create compelling content that subtly promotes your brand while providing valuable information to readers.', img: '/services/bullhorn.svg'},
             // {service: 'Digital Marketing', serviceDescript: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores dolor explicabo sint ab exercitationem itaque ducimus modi ratione et aut fuga libero neque, nemo sapiente voluptates quam esse tenetur cupiditate repudiandae autem eveniet qui error. Odit labore ex adipisci quasi cupiditate quis quia, hic velit facilis ab, in dolorum.', img: '/services/bullseye.svg'},
         ]
         return (
@@ -113,7 +128,7 @@ class Home extends Component {
                         </h1>
                         <h1 className='textHeading'>Our Motto: Energy, Respect, Passion, Integration</h1>
                     </div>
-                    <p className='email'>mediathings.pr@gmail.com</p>
+                    {/* <p className='email'>mediathings.pr@gmail.com</p> */}
                 </div>
               </div>
               <div className='services'>

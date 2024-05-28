@@ -3,7 +3,7 @@
     width: 90%;
     padding-bottom: 0;
     margin: 0 auto 0 auto;
-    padding: 1%;
+    padding: 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,6 +11,9 @@
 
 .logoLink {
     width: 14%;
+    padding-top: 40px;
+    width: 200px;
+    height: 130px
 }
 
 .logo {
@@ -21,12 +24,13 @@
 
 .linksList {
     list-style-type: none;
-    width: 27%;
+    width: 35%;
     padding-left: 0;
     padding-bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 100px;
     transition: all 1s ease; /* Add transition for smoothness */
 }
 .links:hover{
@@ -34,7 +38,7 @@
 }
 .links {
     text-decoration: solid;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
     color: #000;
 }

@@ -5,7 +5,10 @@ import './Loading.css'; // Import the CSS file for styling
 const Loading = () => {
   return (
     <>
+
     <div id="loading-container">
+    <img src="/logo1.png" alt="Loading..." id="loading-logo" />
+
     <svg
   class="container1" 
   x="0px" 
@@ -36,7 +39,7 @@ const Loading = () => {
 
       <h1 className="loading-text">Loading.....</h1>
       <br />
-      <img src="/logo1.png" alt="Loading..." id="loading-logo" />
+      {/* <img src="/logo1.png" alt="Loading..." id="loading-logo" /> */}
     </div>
   
     </>
