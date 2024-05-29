@@ -3,6 +3,7 @@
     padding-top: 1%;
     margin: 12% auto 1% auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
 }
@@ -43,13 +44,108 @@
     margin-left: 5%;
 }
 
-.copyright {
-    width: 30%;
-    margin-top: 4%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-li:hover{
+
+
+li:hover {
     color: #EB4D1A;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .branding, .footer-services, .contact {
+        width: 100%;
+        margin: 2% 0;
+        text-align: center;
+    }
+
+    .footerLogo {
+        width: 30%;
+    }
+
+    .footerLinks {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .footerLinks a {
+        margin: 0 10px;
+    }
+    .footer-services , .contact  {
+        margin-left: 20%;
+        padding-left: 20%;
+    }
+
+    .footer-services , .contact  {
+        margin: 5px 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin: 5% auto;
+    }
+
+    .footerLogo {
+        width: 40%;
+    }
+    .footer-services , .contact  {
+        margin-left: 20%;
+        padding-left: 20%;
+    }
+
+    .footer-services , .contact  {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        margin: 2% auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerLogo {
+        width: 50%;
+    }
+
+    .footer-services , .contact  {
+        margin-left: 20%;
+        padding-left: 20%;
+    }
+
+    .footer-services , .contact  {
+        margin: 5px 0;
+    }
+
+    .branding {
+        order: 2;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-services, .contact {
+        order: 3;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footerLinks {
+        order: 4;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .footerLinks a {
+        margin: 0 5px;
+    }
+
+    
 }

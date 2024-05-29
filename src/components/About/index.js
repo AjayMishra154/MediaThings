@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div className='whatWeOffer'>
                 <div className='aboutText'>
-                        <h1>Little Story About Us</h1>
+                        {/* <h1>Little Story About Us</h1> */}
                         {/* <h3 className='aboutHeading'>Little Story About Us</h3> */}
                         <p className='aboutDescript'>
                             Anshu Ahuja established Media Things  with an aim to bring her proactive attitude and innate affinity for everything "media" to the forefront of the public relations

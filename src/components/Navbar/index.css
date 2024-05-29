@@ -2,18 +2,19 @@
     height: 10vh;
     width: 90%;
     padding-bottom: 0;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     padding: 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative; 
 }
 
 .logoLink {
     width: 14%;
     padding-top: 40px;
     width: 200px;
-    height: 130px
+    height: 130px;
 }
 
 .logo {
@@ -24,20 +25,21 @@
 
 .linksList {
     list-style-type: none;
-    width: 35%;
     padding-left: 0;
     padding-bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 100px;
-    transition: all 1s ease; /* Add transition for smoothness */
+    transition: all 1s ease; 
 }
-.links:hover{
+
+.links:hover {
     color: #EB4D1A;
 }
+
 .links {
-    text-decoration: solid;
+    text-decoration: none;
     font-size: 25px;
     font-weight: 500;
     color: #000;
@@ -47,52 +49,48 @@
     background-color: transparent;
     border: 0;
     cursor: pointer;
-    display: none; /* Initially hidden */
+    display: none; 
 }
 
-/* Media query for screen width 1024px or below */
+
 @media (max-width: 1024px) {
-    .logoImage {
-        height: 3rem;
-        width: 100%;
-    }
-
-    .heroClass {
-        margin-top: 7rem;
-    }
-
     .linksList {
-        display: none; /* Hide linksList */
-        flex-direction: column; /* Make it column for dropdown */
-        width: 100%; /* Full width for dropdown */
-        background-color: transparent; /* Background color for dropdown */
-        position: absolute; /* Absolute positioning */
-        top: 12vh; /* Position below navbar */
+        display: none; 
+        flex-direction: column; 
+        width: 100%; 
+        background-color: white; 
+        position: absolute; 
+        top: 12vh; 
         left: 0;
         right: 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1; 
     }
 
     .linksList.show {
-        display: flex; /* Show linksList when dropdown is visible */
+        display: flex; 
+    }
+
+    .links {
+        font-size: 20px; 
+        padding: 10px 0; 
     }
 
     .button1 {
-        display: block; /* Show button1 */
+        display: block; 
     }
 }
 
-/* Media query for screen width 1025px or above */
-@media (min-width: 1025px) {
-    .logoImage {
-        width: 100%;
-        height: 3.5rem;
-    }
 
+@media (min-width: 1025px) {
     .linksList {
-        display: flex; /* Ensure linksList is displayed */
+        display: flex; 
     }
 
     .button1 {
-        display: none; /* Hide button1 */
+        display: none; 
     }
+}
+a.links {
+    padding: 10px;
 }

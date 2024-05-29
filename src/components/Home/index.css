@@ -17,7 +17,7 @@
     margin: 5% auto 0 auto;
     padding: 0;
     width: 80%;
-    height: 40vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -315,12 +315,12 @@
     animation: scroll1 var(--duration) linear infinite reverse;
 }
   
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
     .marque__group {
       animation-play-state: paused;
     }
-}
-  
+} */
+   
 .marque__group img {
     max-width: clamp(10rem, 1rem + 28vmin, 20rem);
     aspect-ratio: 1;
@@ -403,5 +403,100 @@ ul {
     visibility: visible; 
     opacity: 1; 
  }
+ @media (max-width: 1200px) {
+    .heroClass {
+        width: 90%;
+        height: auto; 
+    }
 
+    .text {
+        width: 90%;
+    }
+/* 
+    .card {
+        width: 45%;
+    } */
 
+    .aboutText {
+        width: 70%;
+    }
+/* 
+    .featuredImages .featured-image {
+        width: 30%;
+    } */
+}
+
+@media (max-width: 768px) {
+    .heroClass {
+        width: 100%;
+        height: auto; 
+    }
+
+    .text {
+        width: 90%;
+        margin-left: 5%;
+        padding: 2rem 1rem; 
+    }
+
+    /* .card {
+        width: 90%;
+    } */
+
+    .aboutText {
+        width: 80%;
+    }
+
+     .featuredImages .featured-image {
+        width: 45%;
+    } 
+    /*
+    .clientImagesContainer .clientImages,
+    .clientImagesContainer .tieupCompaniesImages {
+        width: 45%;
+        height: auto;
+    } */
+}
+
+@media (max-width: 576px) {
+    *{
+        margin-bottom: 1%;
+    }
+    .heroClass {
+        height: auto; 
+    }
+
+    .text {
+        width: 90%;
+        margin-left: 2%;
+        padding: 2rem 1rem; 
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .aboutText {
+        width: 90%;
+    }
+
+     .featuredImages .featured-image {
+        width: 46%;
+        padding: 1%;
+    } 
+    
+
+    .clientImagesContainer .clientImages,
+    .clientImagesContainer .tieupCompaniesImages {
+        width: 90%;
+        height: auto;
+    } 
+}
+
+.tieupCompaniesImages {
+    height: auto;
+    width: 300px;
+}
+
+/* .clientName.debashi {
+    margin-left: 20%; 
+} */

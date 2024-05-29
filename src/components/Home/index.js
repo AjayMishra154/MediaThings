@@ -45,43 +45,46 @@ class Home extends Component {
             <div className="marque">
                 <div className="marque__group">
                     {[
-                        { src: '/clientImages/AnkitMehra.png', alt: 'Ankita Mehra' },
-                        { src: '/clientImages/debashi.png', alt: 'Dr Debashi' },
-                        { src: '/clientImages/kiran.png', alt: 'Dr kiran Rukadikar' },
-                        { src: '/clientImages/madhu.png', alt: 'Dr Madhu Chopra' },
-                        { src: '/clientImages/shikha.png', alt: 'shikha Khanna' },
+                        { src: '/clientImages/AnkitMehra.png', alt: 'Ankita Mehra', className: 'debashi'},
+                        { src: '/clientImages/debashi.png', alt: 'Dr Debashi', className: 'debashi'},
+                        { src: '/clientImages/kiran.png', alt: 'Dr kiran Rukadikar'},
+                        { src: '/clientImages/madhu.png', alt: 'Dr Madhu Chopra'},
+                        { src: '/clientImages/shikha.png', alt: 'shikha Khanna' , className: 'debashi'},
                         { src: '/clientImages/shuti.png', alt: 'Dr shuti Khare Shukla' },
-                        { src: '/clientImages/Tina.png', alt: 'Ms Tina Vinod' },
+                        { src: '/clientImages/Tina.png', alt: 'Ms Tina Vinod', className: 'debashi'},
                         { src: '/clientImages/Trishna.png', alt: 'Dr Trishna Gupte' },
-                        { src: '/clientImages/Twinkle.png', alt: 'Twinkle Jain' },
+                        { src: '/clientImages/Twinkle.png', alt: 'Twinkle Jain', className: 'debashi'},
                     ].map(client => (
                         <div className="clientImageWrapper" key={client.alt}>
                             <img src={client.src} alt={client.alt} className="clientImages" />
-                            <span className="clientName">{client.alt}</span>
+                            <span className={`clientName ${client.className || ''}`}>{client.alt}</span>
                         </div>
                     ))}
                 </div>
         
                 <div aria-hidden="true" className="marque__group">
                     {[
-                        { src: '/clientImages/AnkitMehra.png', alt: 'Ankita Mehra' },
-                        { src: '/clientImages/debashi.png', alt: 'Dr Debashi' },
-                        { src: '/clientImages/kiran.png', alt: 'Dr kiran Rukadikar' },
+                        { src: '/clientImages/AnkitMehra.png', alt: 'Ankita Mehra', className: 'debashi'},
+                        { src: '/clientImages/debashi.png', alt: 'Dr Debashi', className: 'debashi'},
+                        { src: '/clientImages/kiran.png', alt: 'Dr kiran Rukadikar'},
                         { src: '/clientImages/madhu.png', alt: 'Dr Madhu Chopra' },
-                        { src: '/clientImages/shikha.png', alt: 'shikha Khanna' },
+                        { src: '/clientImages/shikha.png', alt: 'shikha Khanna' , className: 'debashi'},
                         { src: '/clientImages/shuti.png', alt: 'Dr shuti Khare Shukla' },
-                        { src: '/clientImages/Tina.png', alt: 'Ms Tina Vinod' },
+                        { src: '/clientImages/Tina.png', alt: 'Ms Tina Vinod', className: 'debashi'},
                         { src: '/clientImages/Trishna.png', alt: 'Dr Trishna Gupte' },
-                        { src: '/clientImages/Twinkle.png', alt: 'Twinkle Jain' },
+                        { src: '/clientImages/Twinkle.png', alt: 'Twinkle Jain', className: 'debashi'},
                     ].map(client => (
                         <div className="clientImageWrapper" key={client.alt}>
                             <img src={client.src} alt={client.alt} className="clientImages" />
-                            <span className="clientName">{client.alt}</span>
+                            <span className={`clientName ${client.className || ''}`}>{client.alt}</span>
                         </div>
                     ))}
                 </div>
             </div>
         );
+        
+        
+        
         
         const featuredImages = ['/getFeaturedImages/bombaytimes.png.webp', '/getFeaturedImages/cosmopolitan.png.webp', '/getFeaturedImages/healthshots.png.webp', '/getFeaturedImages/healthsite.png.webp', '/getFeaturedImages/Mid-Day.png.webp', '/getFeaturedImages/pinkvilla.png.webp', '/getfeaturedImages/thestatesman.png.webp', '/getFeaturedImages/vouge.png.webp']
         const services = [
