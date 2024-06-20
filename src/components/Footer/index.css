@@ -49,6 +49,13 @@
 li:hover {
     color: #EB4D1A;
 }
+.instagram:hover{
+    color: #ff69b4;
+}
+
+.linkedin:hover{
+    color: #0077b5;
+}
 
 /* Media Queries for Responsiveness */
 @media (max-width: 1024px) {

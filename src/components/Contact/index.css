@@ -6,7 +6,9 @@
     justify-content: space-between;
     flex-wrap: wrap; 
 }
-
+.number{
+    font-weight: 500;
+}
 .contact-email {
     border-radius: 8px;
     width: 30%;

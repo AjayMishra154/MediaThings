@@ -86,7 +86,7 @@ class Home extends Component {
         
         
         
-        const featuredImages = ['/getFeaturedImages/bombaytimes.png.webp', '/getFeaturedImages/cosmopolitan.png.webp', '/getFeaturedImages/healthshots.png.webp', '/getFeaturedImages/healthsite.png.webp', '/getFeaturedImages/Mid-Day.png.webp', '/getFeaturedImages/pinkvilla.png.webp', '/getfeaturedImages/thestatesman.png.webp', '/getFeaturedImages/vouge.png.webp']
+        const featuredImages = ['/getFeaturedImages/The_Indian_Express_logo.svg.png','/getFeaturedImages/yourstory.webp','/getFeaturedImages/theprint-removebg-preview.png','/getFeaturedImages/financialexpress.webp','/getFeaturedImages/Outlook.webp', '/getFeaturedImages/Jagran-Prakashan-Buyback-removebg-preview.png',  '/getFeaturedImages/Mid-Day.png-removebg-preview.png', '/getFeaturedImages/pinkvilla.png.webp']
         const services = [
             {service: 'Digital Marketing', serviceDescript: 'Enhance your online presence with our comprehensive digital marketing services. We specialize in SEO, social media strategies, and targeted advertising to drive traffic and boost conversions.', img: '/services/share-icon.svg'},
             {service: 'Press Release', serviceDescript: 'Ensure your news reaches the right audience with our press release dissemination service. We distribute your announcements to top media outlets, journalists, and industry influencers for maximum impact.', img: '/services/newspaper.svg'},
@@ -119,17 +119,13 @@ class Home extends Component {
                     </div>
                     <div className='text'>
                         <h1 className='textHeading'>
-                            We are a company that puts people first, where creativity and passion are
-                            valued. Clients are cherished in this environment. One in which you have time to
-                            contemplate and go the additional mile.
+                        We are dedicated to quality, creativity, and results-driven strategies. Our team of experts work closely with you to understand your goals and deliver customised solutions that achieve your communication objectives with precision and impact.
                         </h1>
                         <h1 className='textHeading'>
-                            Our principles are at the heart of all we do. We put in a lot of effort to ensure
-                            that everything we do is accurate. Not only for ourselves, but also for the
-                            people we work with.
-                            Our Motto: Energy, Respect, Passion, Integration
+                        Discover our comprehensive array of services designed to elevate your brand’s visibility and drive audience engagement.
+                            
                         </h1>
-                        <h1 className='textHeading'>Our Motto: Energy, Respect, Passion, Integration</h1>
+                        {/* <h1 className='textHeading'>Our Motto: Energy, Respect, Passion, Integration</h1> */}
                     </div>
                     {/* <p className='email'>mediathings.pr@gmail.com</p> */}
                 </div>
@@ -148,25 +144,28 @@ class Home extends Component {
               </div>
               <div className='whatWeOffer'>
                     <div className='aboutText'>
-                        {/* <h1>What we offer</h1> */}
+                        {/* <img src="/public/360_F_579485026_Fb2LO9GgmNKkOi18LjoBVAk1wUtZG2DE.jpg" alt='image'></img> */}
                         <h1 className='heading'>About Us</h1>
                         <p className='aboutDescript'>
-                            Anshu Ahuja established Media Things in the year 2021 with an aim to bring her proactive attitude and innate affinity for everything "media" to the forefront of the public relations
-                            landscape. She commenced her career working with various PR agencies, handling a diverse range of clients. Today, with over 12 years of experience, Anshu and her team are dedicated to
-                            providing innovative and effective PR solutions. <br/><br/> Clients across various industries, including lifestyle, hospitality, pharmaceuticals, healthcare, logistics, and entertainment, recognize
-                            her strengths in understanding their requirements and delivering creative and strategic PR approaches. With an unwavering commitment to excellence, Anshu, as a co-founder of Media Things,
-                            effectively manages and facilitates clients' communication needs.
+                        MediaThings is a pioneering media services company committed to redefining how businesses communicate with their audiences.
+                         Combining innovative strategies with a client-focused approach, MediaThings offers a comprehensive suite of services designed to 
+                         enhance brand visibility and audience engagement in today's dynamic media landscape. <br/><br/> 
+
+                        A team of seasoned media professionals with extensive industry experience, work together at MediaThings with a vision 
+                        to deliver integrated media solutions. The company has become a trusted partner for businesses in various sectors like healthcare, entertainment, defence, logistics, FMCG etc, and seeking expert guidance in digital marketing, public relations, and media management. MediaThings excels through its dedication to quality, creativity, and results-driven strategies, ensuring every client achieves their communication objectives with precision and impact.<br/><br/> 
+
+With a dedication to quality, creativity, and results-driven strategies, MediaThings ensures that every client achieves their communication objectives with precision and impact. Whether you are looking to boost your digital presence, manage public relations, or track media impact, MediaThings is your trusted partner in navigating the complex media landscape.
                         </p>
                     </div>
               </div>
-              <div className='getFeaturedOn'>
-                  <h1 className='heading'>Get Featured On</h1>
+              {/* <div className='getFeaturedOn'>
+                  <h1 className='heading'>Our Media Network Includes</h1>
                   <ul className='featuredImages'>
                     {featuredImages.map(eachImage => (
                         <img src={eachImage} className='featured-image' />
                     ))}
                   </ul>
-              </div>
+              </div> */}
               <h1 className='heading'>Our Clients</h1>
               <div className='body'>
                 {ImageScroller()}

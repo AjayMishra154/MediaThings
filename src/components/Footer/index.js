@@ -2,7 +2,7 @@ import './index.css';
 
 const Footer = () => {
     const MailComponent = () => {
-        const emailAddress = 'mediathings.pr@gmail.com';
+        const emailAddress = 'letsconnect@mediathings.in';
         const mailtoLink = `mailto:${emailAddress}`;
         return (
             <a href={mailtoLink} className='email-href'>{emailAddress}</a>

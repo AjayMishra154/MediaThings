@@ -6,7 +6,33 @@
     background-image: url("https://t3.ftcdn.net/jpg/03/26/61/00/240_F_326610062_NBlAHDP8JTPnp8vJ2pofSRUvYMTSj1Cx.jpg");
     background-size: cover;
 }
+.aboutDescriptheader{
+    font-weight: 400;
+    text-align: justify;
+    padding: 1%;
+    font-size: x-large;
+    line-height: 2rem;
+    font-family: 'helvetica';
 
+
+}
+
+.specialword{
+    font-size: xx-large;
+    
+}
+.empty-div{
+    padding-bottom: 0%;
+}
+.aboutDescript1{
+    font-weight: 500;
+    text-align: justify;
+    padding: 1%;
+    font-size: 28px;
+    line-height: 2rem;
+    font-style: italic; 
+    color: #5a5a5a;
+}
 .redirectionAboutStructure {
     width: 60%;
     height: 21vh;

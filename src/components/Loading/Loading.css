@@ -4,20 +4,23 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: #e3cdba; /* Change to match your desired background color */
+  background: #ffff; /* Change to match your desired background color */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 1000; /* Ensure it covers the entire page */
-  
+   background-image: url("/public/1000_F_709815048_Euas0TM2rWa81tkljtO3RjCh4FZ2jvxT-transformed.jpeg");
+    /* background-image: url("/public/peach-watercolor-texture-with-white-background_1083-159_1x.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #loading-logo {
-  width: 200px; /* Adjust size as needed */
+  width: 300px; /* Adjust size as needed */
   margin-top: 20px; /* Add margin to separate from other elements */
   animation: logoAnimation 1.5s ease-in-out infinite;
-  /* padding-bottom: 4%; */
   margin-bottom: 4%;
 }
 
@@ -30,7 +33,7 @@
   }
 }
 
- .loading-text{
+.loading-text {
   font-size: 30px;
   color: #EB4D1A;
   margin: 20px 0; /* Add margin to separate from other elements */
@@ -46,39 +49,57 @@
   }
 }
 
-.container1 {
-  --uib-size: 55px;
-  --uib-color: black;
-  --uib-speed: 1.3s;
-  --uib-bg-opacity: .1;
-  height: calc(var(--uib-size) * (2.1 / 5));
+/* New dot loading animation styles */
+.container {
+  --uib-size: 100px; /* Increase size */
+  --uib-color: #5a5a5a;
+  --uib-speed: 2.5s;
+  --uib-dot-size: calc(var(--uib-size) * 0.18);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: var(--uib-size);
-  transform-origin: center;
-  overflow: visible;
-  margin-bottom: 20px; /* Add margin to separate from other elements */
+  height: var(--uib-dot-size);
 }
 
-.car {
-  fill: none;
-  stroke: var(--uib-color);
-  stroke-dasharray: 15, 85;
-  stroke-dashoffset: 0;
-  stroke-linecap: round;
-  animation: travel var(--uib-speed) linear infinite;
-  will-change: stroke-dasharray, stroke-dashoffset;
-  transition: stroke 0.5s ease;
+.dot {
+  position: absolute;
+  top: calc(50% - var(--uib-dot-size) / 2);
+  left: calc(0px - var(--uib-dot-size) / 2);
+  display: block;
+  height: var(--uib-dot-size);
+  width: var(--uib-dot-size);
+  border-radius: 50%;
+  background-color: var(--uib-color);
+  animation: stream var(--uib-speed) linear infinite both;
+  transition: background-color 0.3s ease;
 }
 
-.track {
-  stroke: var(--uib-color);
-  opacity: var(--uib-bg-opacity);
+.dot:nth-child(2) {
+  animation-delay: calc(var(--uib-speed) * -0.2);
 }
 
-@keyframes travel {
-  0% {
-    stroke-dashoffset: 0;
+.dot:nth-child(3) {
+  animation-delay: calc(var(--uib-speed) * -0.4);
+}
+
+.dot:nth-child(4) {
+  animation-delay: calc(var(--uib-speed) * -0.6);
+}
+
+.dot:nth-child(5) {
+  animation-delay: calc(var(--uib-speed) * -0.8);
+}
+
+@keyframes stream {
+  0%, 100% {
+    transform: translateX(0) scale(0);
   }
-  100% {
-    stroke-dashoffset: 100;
+  50% {
+    transform: translateX(calc(var(--uib-size) * 0.5)) scale(1);
+  }
+  99.999% {
+    transform: translateX(calc(var(--uib-size))) scale(0);
   }
 }

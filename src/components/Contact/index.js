@@ -5,10 +5,10 @@ import Footer from '../Footer';
 
 const Contact = () => {
     const MailComponent = () => {
-        const emailAddress = 'mediathings.pr@gmail.com';
+        const emailAddress = 'letsconnect@mediathings.in';
         const mailtoLink = `mailto:${emailAddress}`;
         return (
-          <a href={mailtoLink} className='email-href'>mediathings.pr@gmail.com</a>
+          <a href={mailtoLink} className='email-href'>letsconnect@mediathings.in</a>
         );
     };
 
@@ -49,7 +49,7 @@ const Contact = () => {
                         </svg>
                     </p>
                     <h3>Phone number</h3>
-                    <p>+91 9987423546</p>
+                    <p className='number'>+91 9987423546</p>
                 </div>
             </div>
             <div className='mapContainer'>
