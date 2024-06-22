@@ -16,14 +16,34 @@
 
 
 }
-
 .specialword{
     font-size: xx-large;
     
 }
+
 .empty-div{
     padding-bottom: 0%;
 }
+.whatWeOffer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%; /* Add some padding if needed */
+}
+
+.aboutContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.aboutText1 {
+    width: 60%; /* Adjust the width as needed */
+    text-align: center;
+}
+
 .aboutDescript1{
     font-weight: 500;
     text-align: justify;

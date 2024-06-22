@@ -142,10 +142,14 @@ class Home extends Component {
                     ))}
                 </div>
               </div>
+              <h1 className='heading'>About Us</h1>
               <div className='whatWeOffer'>
+              
+                   <div> <img src="/360_F_579485026_Fb2LO9GgmNKkOi18LjoBVAk1wUtZG2DE.jpg" alt="about us" className='aboutImg' /></div>
+
                     <div className='aboutText'>
                         {/* <img src="/public/360_F_579485026_Fb2LO9GgmNKkOi18LjoBVAk1wUtZG2DE.jpg" alt='image'></img> */}
-                        <h1 className='heading'>About Us</h1>
+                        
                         <p className='aboutDescript'>
                         MediaThings is a pioneering media services company committed to redefining how businesses communicate with their audiences.
                          Combining innovative strategies with a client-focused approach, MediaThings offers a comprehensive suite of services designed to 

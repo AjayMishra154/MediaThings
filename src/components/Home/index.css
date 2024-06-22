@@ -34,6 +34,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .icon {
@@ -89,6 +90,7 @@
     padding-bottom: 2%;
 }
 
+
 .cardsContainer {
     padding: 3%;
     padding-top: 0;
@@ -101,7 +103,6 @@
 .card {
     padding: 2%;
     margin-top: 2%;
-    border: 1px solid #EB4D1A;
     border-radius: 9px;
     width: 30%;
     display: flex;
@@ -109,38 +110,101 @@
     align-items: flex-start;
     font-size: large;
     line-height: 1.5rem;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), 
+                -4px -4px 10px rgba(255, 255, 255, 0.9), 
+                4px 4px 20px rgba(0, 0, 0, 0.05), 
+                -4px -4px 20px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-bottom: 10px solid #EB4D1A; /* Ensure this is applied */
+    border-left: 1px solid #EB4D1A;
+    border-right: 1px solid #EB4D1A;
+    border-top: 1px solid #EB4D1A;
+
+    background-color: white; /* Add a background color for visibility */
+    position: relative; /* Ensure positioning context */
+    z-index: 1; /* Bring card above other elements if necessary */
 }
 
+/* .serviceImage {
+    width: 50px;
+} */
 .serviceImage {
     width: 50px;
-    width: 50px;
+    filter: hue-rotate(180deg); /* Example filter, change as needed */
 }
 
+/* Alternative for SVG images, changing the fill color */
+.serviceImage svg {
+    fill: red; /* Change to the desired color */
+}
 .card:hover {
-    border: 3px solid #EB4D1A;
+    border: 0px solid #EB4D1A;
+    box-shadow: 16px 16px 80px rgba(0, 0, 0, 0.2), 
+                -16px -16px 80px rgba(255, 255, 255, 0.9), 
+                16px 16px 80px rgba(0, 0, 0, 0.1), 
+                -16px -16px 80px rgba(255, 255, 255, 0.7);
+    transform: translateY(-10px);
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(5000px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .whatWeOffer {
-    width: 100%;
-    margin: 1% auto 0 auto;
-    padding: 1%;
+    width: 95%;
+    margin: 0 1% 0 2%;
+    padding-bottom: 0;
     text-align: left;
     display: flex;
-    justify-content: space-around;
-    background-image: url("/public/blurred-abstract-background-interior-view-looking-out-toward-empty-office-lobby-entrance-doors-glass-curtain-wall-with-frame_1339-6364.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    flex-direction: column;
+    align-items: center;
+}
 
-    background-size:cover;
-    padding-bottom: 3%;
-
+.aboutImg {
+    width: 100%;
+    border-radius: 8px;
+    animation: slideUp 2s ease-out 1s forwards;
 }
 
 .aboutText {
-    width: 55%;
-    text-align: center;
+    width: 100%;
+    animation: slideUp 2s ease-out 1s forwards;
+}
+
+@media (min-width: 768px) {
+    .whatWeOffer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
     
+    .aboutImg {
+        width: 90%;
+    }
+    
+    .aboutText {
+        width: 50%;
+    }
+}
+
+.aboutHeading1 {
+    margin: 0;
+    padding: 2% 0 2% 0;
+}
+
+.aboutDescript2 {
+    font-weight: 400;
+    text-align: justify;
+    padding: 1%;
+    font-size: x-large;
+    line-height: 2rem;
+    font-family: 'helvetica';
 }
 
 .aboutHeading {
@@ -150,13 +214,6 @@
 
 .aboutDescript {
     font-weight: 400;
-    text-align: justify;
-    padding: 1%;
-    font-size: x-large;
-    line-height: 2rem;
-    font-family: 'helvetica';
-
-
 }
 
 .getFeaturedOn {
@@ -404,17 +461,10 @@ ul {
 }
  .clientName {
     visibility: hidden;
-    
     color: #EB4D1A;
-    /* background-color: rgba(0, 0, 0, 0.7); 
-    color: #fff; */
     text-align: justify;
-    /* border-radius: 6px; */
-    /* padding: 5px 0;
-    position: absolute; */
     bottom: 125%;  
     left: 50%;
-    /* margin-left: 15px; */
     opacity: 0;
     transition: opacity 0.3s;  
     font-weight: 600; 

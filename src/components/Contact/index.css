@@ -1,5 +1,5 @@
 .structure {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     padding: 3%;
     display: flex;
@@ -8,6 +8,11 @@
 }
 .number{
     font-weight: 500;
+}
+.no-underline-link {
+    color: black;
+    text-decoration: none;
+    
 }
 .contact-email {
     border-radius: 8px;
@@ -84,4 +89,7 @@ h3 {
     .contact-email {
         width: 100%;
     }
+}
+h5:hover{
+    color: orchid;
 }

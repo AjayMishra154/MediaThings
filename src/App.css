@@ -13,9 +13,8 @@
   margin: 0;
   padding: 0;
   text-align: justify;
- 
-
 }
+
 body{
   /* background-color: #e3cdba; */
   background-color: #ffffff;
@@ -33,3 +32,18 @@ nav :hover{
 /* *{
   font-style: normal;
 } */
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+html {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Ensure that the body can still scroll */
+body {
+  overflow: auto; /* Allow scrolling */
+}
