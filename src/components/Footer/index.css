@@ -17,7 +17,7 @@
 .footer-services, .contact {
     margin: 0 auto;
     padding-left: 0;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .left {
@@ -145,6 +145,7 @@ li:hover {
 }
 
 @media (max-width: 768px) {
+
     .footer {
         margin: 5% auto;
     }
@@ -161,6 +162,9 @@ li:hover {
 }
 
 @media (max-width: 480px) {
+    .left{
+        padding-right: 18px;
+    }
     .footer {
         margin: 2% auto;
         flex-direction: column;
@@ -174,7 +178,7 @@ li:hover {
     .footer-services, .contact {
         width: 100%;
         margin: 5px 0;
-        padding-left: 0;
+        padding-left: 10px;
     }
 
     .branding {

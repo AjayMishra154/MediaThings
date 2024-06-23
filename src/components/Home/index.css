@@ -3,15 +3,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* background-image: url("/public/1000_F_709815048_Euas0TM2rWa81tkljtO3RjCh4FZ2jvxT-transformed.jpeg"); */
     background-image: url("/public/peach-watercolor-texture-with-white-background_1083-159_1x.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
     background-size:cover;
     padding-bottom: 3%;
-    /* background-color: white; */
+   
 }
 
 
@@ -108,7 +106,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center; /* Center items vertically */
+    align-items: center; 
     text-align: center;
     font-size: large;
     line-height: 1.5rem;
@@ -117,27 +115,23 @@
                 4px 4px 20px rgba(0, 0, 0, 0.05), 
                 -4px -4px 20px rgba(255, 255, 255, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-bottom: 10px solid #EB4D1A; /* Ensure this is applied */
+    border-bottom: 10px solid #EB4D1A; 
     border-left: 1px solid #EB4D1A;
     border-right: 1px solid #EB4D1A;
     border-top: 1px solid #EB4D1A;
 
-    background-color: white; /* Add a background color for visibility */
-    /* position: relative; Ensure positioning context */
-    /* z-index: 1; Bring card above other elements if necessary */
+    background-color: white; 
 }
 
-/* .serviceImage {
-    width: 50px;
-} */
+
 .serviceImage {
     width: 50px;
-    filter: hue-rotate(180deg); /* Example filter, change as needed */
+    filter: hue-rotate(180deg); 
 }
 
-/* Alternative for SVG images, changing the fill color */
+
 .serviceImage svg {
-    fill: red; /* Change to the desired color */
+    fill: red; 
 }
 .card:hover {
     border: 0px solid #EB4D1A;
@@ -181,6 +175,7 @@
 }
 
 @media (min-width: 768px) {
+    
     .whatWeOffer {
         flex-direction: row;
         justify-content: space-around;
@@ -198,15 +193,16 @@
 .aboutHeading1 {
     margin: 0;
     padding: 2% 0 2% 0;
+    
 }
 
 .aboutDescript2 {
     font-weight: 400;
     text-align: justify;
     padding: 1%;
-    font-size: x-large;
     line-height: 2rem;
     font-family: 'helvetica';
+    font-size: 18px;
 }
 
 .aboutHeading {
@@ -216,6 +212,8 @@
 
 .aboutDescript {
     font-weight: 400;
+    font-size: 18px;
+    margin: 10px;
 }
 
 .getFeaturedOn {
@@ -224,8 +222,8 @@
 }
 
 .heading {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 40px;
     text-align: center;
 }
@@ -251,8 +249,8 @@
 }
 
 .clientImages {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 8px;
 }
 
@@ -383,11 +381,7 @@
     animation: scroll1 var(--duration) linear infinite reverse;
 }
   
-/* @media (prefers-reduced-motion: reduce) {
-    .marque__group {
-      animation-play-state: paused;
-    }
-} */
+
    
 .marque__group img {
     max-width: clamp(10rem, 1rem + 28vmin, 20rem);
@@ -440,34 +434,33 @@ ul {
 }
 
 .clientImageWrapper {
-    position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0 10px;
-}
-
-.clientImages {
+  }
+  
+  .clientImageWrapper img {
     display: block;
-    width: 500px; 
-    height: auto;
-}
- .clientName {
+  }
+  
+  .clientName {
     visibility: hidden;
+    margin-top: 10px; /* Adjust as needed */
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
     color: #EB4D1A;
-    text-align: justify;
-    bottom: 125%;  
-    left: 50%;
-    opacity: 0;
-    transition: opacity 0.3s;  
-    font-weight: 600; 
- }  
+     /* Optional: adds a background for readability */
+    padding: 5px; /* Optional: adds padding around the text */
+    width: 100%; /* Ensures the text is centered */
+  }
+ 
 .clientImageWrapper:hover .clientName {
     visibility: visible; 
     opacity: 1; 
  }
  @media (max-width: 1200px) {
-    .clientName.debashi {
-        margin-left: 0 !important; 
-    }
     .heroClass {
         width: 90%;
         height: auto; 
@@ -476,28 +469,26 @@ ul {
     .text {
         width: 90%;
     }
-/* 
-    .card {
-        width: 45%;
-    } */
 
     .aboutText {
         width: 70%;
     }
-/* 
-    .featuredImages .featured-image {
-        width: 30%;
-    } */
+
 }
 
 @media (max-width: 768px) {
-    .clientName.debashi {
-        margin-left: 0 !important; 
+    .logo{
+        padding-left: 0 !important;
+        width: 70% !important;
     }
+    .aboutImg {
+        padding-bottom: 20px;}
     .heroClass {
         width: 100%;
         height: auto; 
+        padding-top: 10px;
     }
+   
 
     .text {
         width: 90%;
@@ -505,9 +496,7 @@ ul {
         padding: 2rem 1rem; 
     }
 
-    /* .card {
-        width: 90%;
-    } */
+
 
     .aboutText {
         width: 80%;
@@ -516,18 +505,14 @@ ul {
      .featuredImages .featured-image {
         width: 45%;
     } 
-    /*
-    .clientImagesContainer .clientImages,
-    .clientImagesContainer .tieupCompaniesImages {
-        width: 45%;
-        height: auto;
-    } */
+    
 }
 
 @media (max-width: 576px) {
     .clientName.debashi {
         margin-left: 0 !important; 
     }
+   
     *{
         margin-bottom: 1%;
     }
@@ -571,6 +556,3 @@ ul {
     width: 300px;
 }
 
-/* .clientName.debashi {
-    padding-left: 5px; 
-} */
