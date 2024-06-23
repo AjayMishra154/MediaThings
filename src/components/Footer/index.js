@@ -57,10 +57,14 @@ const Footer = () => {
 
                 <div className='contact footer-contact'>
                     <h1 className='footer-headline'>Contact</h1>
+                    <div className='row'>
                     <ul>
                         <a href="tel:+919987423546" className="no-underline-link"><li>+91 9987423546</li></a>
                         <li>{MailComponent()}</li>
                     </ul>
+
+                    </div>
+                    
                 </div>
             </div>
         </div>

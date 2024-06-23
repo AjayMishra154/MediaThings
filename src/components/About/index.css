@@ -70,6 +70,8 @@
 }
 
 @media (max-width: 768px) {
+    .aboutText1 {
+        width: 96%; }
     .about-redirection {
         height: auto;
         padding: 20px 0;
@@ -87,6 +89,9 @@
 }
 
 @media (max-width: 480px) {
+    
+    .aboutText1 {
+    width: 96%; }
     .about-redirection {
         height: auto;
         padding: 20px 0;
