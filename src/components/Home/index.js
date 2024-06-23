@@ -45,15 +45,15 @@ class Home extends Component {
             <div className="marque">
                 <div className="marque__group">
                     {[
-                        { src: '/clientImages/AnkitMehra.png', alt: 'Ankita Mehra', className: 'debashi'},
-                        { src: '/clientImages/debashi.png', alt: 'Dr Debashi', className: 'debashi'},
-                        { src: '/clientImages/kiran.png', alt: 'Dr kiran Rukadikar'},
-                        { src: '/clientImages/madhu.png', alt: 'Dr Madhu Chopra'},
-                        { src: '/clientImages/shikha.png', alt: 'shikha Khanna' , className: 'debashi'},
-                        { src: '/clientImages/shuti.png', alt: 'Dr shuti Khare Shukla' },
-                        { src: '/clientImages/Tina.png', alt: 'Ms Tina Vinod', className: 'debashi'},
-                        { src: '/clientImages/Trishna.png', alt: 'Dr Trishna Gupte' },
-                        { src: '/clientImages/Twinkle.png', alt: 'Twinkle Jain', className: 'debashi'},
+                        { src: '/clientImages/AnkitMehra.png', alt: 'Ankita Mehra', className: 'ankita'},
+                        { src: '/clientImages/debashi.png', alt: 'Dr. Debeshi Bhattacharjee', className: 'debashi'},
+                        { src: '/clientImages/kiran.png', alt: 'Dr. Kiran Rukadikar',className: 'kiran'},
+                        { src: '/clientImages/madhu.png', alt: 'Dr. Madhu Chopra',className:'madhu'},
+                        { src: '/clientImages/shikha.png', alt: 'Shikha Khanna' , className: ''},
+                        { src: '/clientImages/shuti.png', alt: 'Dr. Stuti Khare Shukla',className:'stuti' },
+                        { src: '/clientImages/Tina.png', alt: 'Ms Tina Vinod', className: 'tina'},
+                        { src: '/clientImages/Trishna.png', alt: 'Dr. Trishna Gupte',className: 'trishna'},
+                        { src: '/clientImages/Twinkle.png', alt: 'Twinkle Jain', className: 'Twinkle'},
                     ].map(client => (
                         <div className="clientImageWrapper" key={client.alt}>
                             <img src={client.src} alt={client.alt} className="clientImages" />
@@ -64,15 +64,15 @@ class Home extends Component {
         
                 <div aria-hidden="true" className="marque__group">
                     {[
-                        { src: '/clientImages/AnkitMehra.png', alt: 'Ankita Mehra', className: 'debashi'},
-                        { src: '/clientImages/debashi.png', alt: 'Dr Debashi', className: 'debashi'},
-                        { src: '/clientImages/kiran.png', alt: 'Dr kiran Rukadikar'},
-                        { src: '/clientImages/madhu.png', alt: 'Dr Madhu Chopra' },
-                        { src: '/clientImages/shikha.png', alt: 'shikha Khanna' , className: 'debashi'},
-                        { src: '/clientImages/shuti.png', alt: 'Dr shuti Khare Shukla' },
-                        { src: '/clientImages/Tina.png', alt: 'Ms Tina Vinod', className: 'debashi'},
-                        { src: '/clientImages/Trishna.png', alt: 'Dr Trishna Gupte' },
-                        { src: '/clientImages/Twinkle.png', alt: 'Twinkle Jain', className: 'debashi'},
+                        { src: '/clientImages/AnkitMehra.png', alt: 'Ankita Mehra', className: 'ankita'},
+                        { src: '/clientImages/debashi.png', alt: 'Dr. Debeshi Bhattacharjee', className: 'debashi'},
+                        { src: '/clientImages/kiran.png', alt: 'Dr. Kiran Rukadikar',className: 'kiran'},
+                        { src: '/clientImages/madhu.png', alt: 'Dr. Madhu Chopra',className:'madhu'},
+                        { src: '/clientImages/shikha.png', alt: 'Shikha Khanna' , className: ''},
+                        { src: '/clientImages/shuti.png', alt: 'Dr. Stuti Khare Shukla',className:'stuti' },
+                        { src: '/clientImages/Tina.png', alt: 'Ms Tina Vinod', className: 'tina'},
+                        { src: '/clientImages/Trishna.png', alt: 'Dr. Trishna Gupte',className: 'trishna'},
+                        { src: '/clientImages/Twinkle.png', alt: 'Twinkle Jain', className: 'Twinkle'},
                     ].map(client => (
                         <div className="clientImageWrapper" key={client.alt}>
                             <img src={client.src} alt={client.alt} className="clientImages" />
@@ -86,7 +86,7 @@ class Home extends Component {
         
         
         
-        const featuredImages = ['/getFeaturedImages/The_Indian_Express_logo.svg.png','/getFeaturedImages/yourstory.webp','/getFeaturedImages/theprint-removebg-preview.png','/getFeaturedImages/financialexpress.webp','/getFeaturedImages/Outlook.webp', '/getFeaturedImages/Jagran-Prakashan-Buyback-removebg-preview.png',  '/getFeaturedImages/Mid-Day.png-removebg-preview.png', '/getFeaturedImages/pinkvilla.png.webp']
+
         const services = [
             {service: 'Digital Marketing', serviceDescript: 'Enhance your online presence with our comprehensive digital marketing services. We specialize in SEO, social media strategies, and targeted advertising to drive traffic and boost conversions.', img: '/services/share-icon.svg'},
             {service: 'Press Release', serviceDescript: 'Ensure your news reaches the right audience with our press release dissemination service. We distribute your announcements to top media outlets, journalists, and industry influencers for maximum impact.', img: '/services/newspaper.svg'},
@@ -148,7 +148,7 @@ class Home extends Component {
                    <div> <img src="/360_F_579485026_Fb2LO9GgmNKkOi18LjoBVAk1wUtZG2DE.jpg" alt="about us" className='aboutImg' /></div>
 
                     <div className='aboutText'>
-                        {/* <img src="/public/360_F_579485026_Fb2LO9GgmNKkOi18LjoBVAk1wUtZG2DE.jpg" alt='image'></img> */}
+
                         
                         <p className='aboutDescript'>
                         MediaThings is a pioneering media services company committed to redefining how businesses communicate with their audiences.
@@ -162,14 +162,7 @@ With a dedication to quality, creativity, and results-driven strategies, MediaTh
                         </p>
                     </div>
               </div>
-              {/* <div className='getFeaturedOn'>
-                  <h1 className='heading'>Our Media Network Includes</h1>
-                  <ul className='featuredImages'>
-                    {featuredImages.map(eachImage => (
-                        <img src={eachImage} className='featured-image' />
-                    ))}
-                  </ul>
-              </div> */}
+              
               <h1 className='heading'>Our Clients</h1>
               <div className='body'>
                 {ImageScroller()}

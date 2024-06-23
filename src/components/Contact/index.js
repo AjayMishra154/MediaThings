@@ -40,7 +40,7 @@ const Contact = () => {
                     <h3>Office Location</h3>
                     <Link   className="no-underline-link" target='_blank' to="https://www.google.com/maps?q=5V44+QJ4+Conwood+Paragon,+Opp+Indian+Oil+Petrol+Pump,+Near,+Cama+Industrial+Estate,+Goregaon,+Mumbai,+Maharashtra+400063&ftid=0x3be7b792c5915d07:0x7d3846fa3a474b14&entry=gps&lucs=,47071704,47069508,94212614,47084304&g_ep=CAISDTYuMTA1LjIuNDYzMzAYACCenQoqJCw0NzA3MTcwNCw0NzA2OTUwOCw5NDIxMjYxNCw0NzA4NDMwNEICSU4%3D&g_st=iw">
 
-                        <h5>Conwood Paragon, 612, 6th Floor, Near Cama Industrial Estate, Opp Indian Oil Petrol Pump, Goregaon (East), Mumbai - 400063</h5>
+                        <h5>Conwood Paragon, 612, 6th Floor,<br></br> Near Cama Industrial Estate,<br></br> Opp Indian Oil Petrol Pump, <br></br>Goregaon (East),<br></br> Mumbai - 400063</h5>
                     </Link>
                 </div>
                 <div className='card'>
