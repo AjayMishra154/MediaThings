@@ -22,8 +22,12 @@ const Navbar = () => {
                     <Link to="/services" className='links' onClick={() => setDropdownVisible(false)}>Services</Link>
                 </li>
                 <li>
+                    <Link to="/hiring" className='links' onClick={() => setDropdownVisible(false)}>Hiring</Link>
+                </li>
+                <li>
                     <Link to="/contactUs" className='links' onClick={() => setDropdownVisible(false)}>Contact Us</Link>
                 </li>
+                
             </ul>
             <button type='button' className='button1' onClick={toggleDropdown}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
