@@ -20,9 +20,11 @@
 .logo {
     border-radius: 5px;
 
-    width: 100%;
+    width: 85%;
     height: auto;
     padding-left: 50px;
+    margin-top: 4%;
+    margin-bottom: 2%;
 }
 
 .linksList {
