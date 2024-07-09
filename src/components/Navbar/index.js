@@ -1,5 +1,4 @@
 import './index.css';
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -8,26 +7,26 @@ const Navbar = () => {
     
     return (
         <nav className='navbar'>
-            <Link to="/" className='logoLink'>
+            <a href="#home" className='logoLink'>
                 <img src="/logo1.png" alt="MediaThingsLogo" className="logo" />
-            </Link>
+            </a>
             <ul className={`linksList ${dropdownVisible ? 'show' : ''}`}>
                 <li>
-                    <Link to="/" className='links' onClick={() => setDropdownVisible(false)}>Home</Link>
-                </li>
-                <li>
-                    <Link to="/about" className='links' onClick={() => setDropdownVisible(false)}>About</Link>
-                </li>
-                <li>
-                    <Link to="/services" className='links' onClick={() => setDropdownVisible(false)}>Services</Link>
-                </li>
-                <li>
-                    <Link to="/hiring" className='links' onClick={() => setDropdownVisible(false)}>Hiring</Link>
-                </li>
-                <li>
-                    <Link to="/contactUs" className='links' onClick={() => setDropdownVisible(false)}>Contact Us</Link>
+                    <a href="#home" className='links' onClick={() => setDropdownVisible(false)}>Home</a>
                 </li>
                 
+                <li>
+                    <a href="#services" className='links' onClick={() => setDropdownVisible(false)}>Services</a>
+                </li>
+                <li>
+                    <a href="#about" className='links' onClick={() => setDropdownVisible(false)}>About</a>
+                </li>
+                <li>
+                    <a href="#hiring" className='links' onClick={() => setDropdownVisible(false)}>Hiring</a>
+                </li>
+                <li>
+                    <a href="#contactUs" className='links' onClick={() => setDropdownVisible(false)}>Contact Us</a>
+                </li>
             </ul>
             <button type='button' className='button1' onClick={toggleDropdown}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
