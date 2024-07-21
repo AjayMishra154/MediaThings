@@ -22,7 +22,7 @@ const Navbar = () => {
                     <a href="#about" className='links' onClick={() => setDropdownVisible(false)}>About</a>
                 </li>
                 <li>
-                    <a href="#hiring" className='links' onClick={() => setDropdownVisible(false)}>Hiring</a>
+                    <a href="#hiring" className='links' onClick={() => setDropdownVisible(false)}>Career</a>
                 </li>
                 <li>
                     <a href="#contactUs" className='links' onClick={() => setDropdownVisible(false)}>Contact Us</a>

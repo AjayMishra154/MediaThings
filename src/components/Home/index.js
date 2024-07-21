@@ -184,8 +184,8 @@ With a dedication to quality, creativity, and results-driven strategies, MediaTh
             {/* Other sections here */}
             <section id="hiring" className='hiring'>
                 <div className='centered-div'>
-                    <h3 >Join Our Team at MediaThings</h3>
-                    <p>
+                    <h3 className='center-align' >Join Our Team at MediaThings</h3>
+                    <p className='aboutDescript'>
                         With a wide range of services at MediaThings, you’ll have the opportunity to work on diverse and challenging projects that will enhance your skills and experience. If you are looking to be part of a dynamic and creative team, we invite you to explore the exciting career opportunities at MediaThings.
                         Email your CV to us at {MailComponent()}
                     </p>
