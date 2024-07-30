@@ -183,7 +183,7 @@ const About = () => {
             alt: "shikha Khanna",
             className: "debashi",
           },
-          { src: "/clientImages/shuti.png", alt: "Dr shuti Khare Shukla" },
+          { src: "/clientImages/shuti.jpeg", alt: "Dr shuti Khare Shukla" },
           {
             src: "/clientImages/Tina.png",
             alt: "Ms Tina Vinod",
@@ -224,7 +224,7 @@ const About = () => {
             alt: "shikha Khanna",
             className: "debashi",
           },
-          { src: "/clientImages/shuti.png", alt: "Dr shuti Khare Shukla" },
+          { src: "/clientImages/shuti.jpeg", alt: "Dr shuti Khare Shukla" },
           {
             src: "/clientImages/Tina.png",
             alt: "Ms Tina Vinod",
