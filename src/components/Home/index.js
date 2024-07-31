@@ -2,6 +2,7 @@ import "./index.css";
 import React, { Component, lazy, Suspense } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
+import { Helmet } from "react-helmet";
 
 // Lazy load components
 const Services = lazy(() => import("../Services"));
@@ -13,6 +14,11 @@ class Home extends Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>MediaThings</title>
+          <meta name="description" content="This is a description of my page" />
+          <meta name="keywords" content="React, Helmet, Meta Tags" />
+        </Helmet>
         <div className="specialEffect">
           <Navbar />
           <div className="heroClass">

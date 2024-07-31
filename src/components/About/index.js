@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import honey from "./Honey.png";
+import jetking from "./Jetking.png";
+import mum from "./MUM.png";
 
 const About = () => {
   const ImageScroller = () => (
@@ -25,57 +27,49 @@ const About = () => {
         />
         <img
           src="/tieupCompanies/galalite.png"
-          alt="AICFB"
+          alt="galalite"
           className="tieupCompaniesImages"
         />
         <img src={honey} alt="AICFB" className="tieupCompaniesImages" />
         <img
           src="/tieupCompanies/intercont.png"
-          alt="AICFB"
+          alt="intercont"
           className="tieupCompaniesImages"
         />
-        <img
-          src="/tieupCompanies/jetking.png"
-          alt="AICFB"
-          className="tieupCompaniesImages"
-        />
+        <img src={jetking} alt="jetking" className="tieupCompaniesImages" />
         <img
           src="/tieupCompanies/MHS.png"
-          alt="AICFB"
+          alt="mhs"
           className="tieupCompaniesImages MHS"
         />
-        <img
-          src="/tieupCompanies/mum.png"
-          alt="AICFB"
-          className="tieupCompaniesImages"
-        />
+        <img src={mum} alt="mum" className="tieupCompaniesImages" />
         <img
           src="/tieupCompanies/Richkardz.png"
-          alt="AICFB"
+          alt="richkardz"
           className="tieupCompaniesImages"
         />
         <img
           src="/tieupCompanies/SA.png"
-          alt="AICFB"
+          alt="sa"
           className="tieupCompaniesImages"
         />
         <img
           src="/tieupCompanies/Sde.png"
-          alt="AICFB"
+          alt="sde"
           className="tieupCompaniesImages"
         />
         <img
           src="/tieupCompanies/SKS.png"
-          alt="AICFB"
+          alt="sks"
           className="tieupCompaniesImages"
         />
         <img
           src="/tieupCompanies/tea-culture-world.png"
-          alt="AICFB"
+          alt="teaculture"
           className="tieupCompaniesImages"
         />
       </div>
-      {/* <div aria-hidden="true" class="marquee__group">
+      <div aria-hidden="true" class="marquee__group">
         <img
           src="/tieupCompanies/AICFB.png"
           alt="AICFB"
@@ -83,70 +77,58 @@ const About = () => {
         />
         <img
           src="/tieupCompanies/bookmychef.png"
-          alt="AICFB"
+          alt="bookmychef"
           className="tieupCompaniesImages"
         />
         <img
           src="/tieupCompanies/BVC.png"
-          alt="AICFB"
+          alt="BVC"
           className="tieupCompaniesImages"
         />
         <img
           src="/tieupCompanies/galalite.png"
-          alt="AICFB"
+          alt="galalite"
           className="tieupCompaniesImages"
         />
-        <img
-          src="/tieupCompanies/honey.png"
-          alt="AICFB"
-          className="tieupCompaniesImages"
-        />
+        <img src={honey} alt="AICFB" className="tieupCompaniesImages" />
         <img
           src="/tieupCompanies/intercont.png"
-          alt="AICFB"
+          alt="intercont"
           className="tieupCompaniesImages"
         />
-        <img
-          src="/tieupCompanies/jetking.png"
-          alt="AICFB"
-          className="tieupCompaniesImages"
-        />
+        <img src={jetking} alt="jetking" className="tieupCompaniesImages" />
         <img
           src="/tieupCompanies/MHS.png"
-          alt="AICFB"
+          alt="mhs"
           className="tieupCompaniesImages MHS"
         />
-        <img
-          src="/tieupCompanies/mum.png"
-          alt="AICFB"
-          className="tieupCompaniesImages"
-        />
+        <img src={mum} alt="mum" className="tieupCompaniesImages" />
         <img
           src="/tieupCompanies/Richkardz.png"
-          alt="AICFB"
+          alt="richkardz"
           className="tieupCompaniesImages"
         />
         <img
           src="/tieupCompanies/SA.png"
-          alt="AICFB"
+          alt="sa"
           className="tieupCompaniesImages"
         />
         <img
           src="/tieupCompanies/Sde.png"
-          alt="AICFB"
+          alt="sde"
           className="tieupCompaniesImages"
         />
         <img
           src="/tieupCompanies/SKS.png"
-          alt="AICFB"
+          alt="sks"
           className="tieupCompaniesImages"
         />
         <img
           src="/tieupCompanies/tea-culture-world.png"
-          alt="AICFB"
+          alt="teaculture"
           className="tieupCompaniesImages"
         />
-      </div> */}
+      </div>
     </div>
   );
   const OurClientsScroller = () => (
