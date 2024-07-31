@@ -2,18 +2,9 @@ import "./index.css";
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
+import honey from "./Honey.png";
 
 const About = () => {
-  const imageNames = [
-    "bombaytimes",
-    "cosmopolitan",
-    "healthshots",
-    "healthsite",
-    "Mid-Day",
-    "pinkvilla",
-    "thestatesman",
-    "vouge",
-  ];
   const ImageScroller = () => (
     <div class="marquee">
       <div class="marquee__group">
@@ -24,12 +15,12 @@ const About = () => {
         />
         <img
           src="/tieupCompanies/bookmychef.png"
-          alt="AICFB"
+          alt="bookmychef"
           className="tieupCompaniesImages"
         />
         <img
           src="/tieupCompanies/BVC.png"
-          alt="AICFB"
+          alt="BVC"
           className="tieupCompaniesImages"
         />
         <img
@@ -37,11 +28,7 @@ const About = () => {
           alt="AICFB"
           className="tieupCompaniesImages"
         />
-        <img
-          src="/tieupCompanies/honey.png"
-          alt="AICFB"
-          className="tieupCompaniesImages"
-        />
+        <img src={honey} alt="AICFB" className="tieupCompaniesImages" />
         <img
           src="/tieupCompanies/intercont.png"
           alt="AICFB"
@@ -88,7 +75,7 @@ const About = () => {
           className="tieupCompaniesImages"
         />
       </div>
-      <div aria-hidden="true" class="marquee__group">
+      {/* <div aria-hidden="true" class="marquee__group">
         <img
           src="/tieupCompanies/AICFB.png"
           alt="AICFB"
@@ -159,7 +146,7 @@ const About = () => {
           alt="AICFB"
           className="tieupCompaniesImages"
         />
-      </div>
+      </div> */}
     </div>
   );
   const OurClientsScroller = () => (
