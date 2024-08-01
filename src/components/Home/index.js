@@ -22,7 +22,7 @@ class Home extends Component {
         <div className="specialEffect">
           <Navbar />
           <div className="heroClass">
-            <div className="icons">
+            <div className="icons" style={{ marginLeft: "1rem" }}>
               <a
                 href="https://www.instagram.com/mediathings_pr?igsh=MXJ4M25wbHRyMGphdA=="
                 target="_blank"
