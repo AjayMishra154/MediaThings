@@ -142,17 +142,17 @@ const About = () => {
           },
           {
             src: "/clientImages/debashi.png",
-            alt: "Dr Debashi",
+            alt: "Dr Debeshi",
             className: "debashi",
           },
           { src: "/clientImages/kiran.png", alt: "Dr kiran Rukadikar" },
           { src: "/clientImages/madhu.png", alt: "Dr Madhu Chopra" },
           {
             src: "/clientImages/shikha.png",
-            alt: "shikha Khanna",
+            alt: "Shikha Khanna",
             className: "debashi",
           },
-          { src: "/clientImages/shuti.jpeg", alt: "Dr shuti Khare Shukla" },
+          { src: "/clientImages/shuti.jpeg", alt: "Dr Shuti Khare Shukla" },
           {
             src: "/clientImages/Tina.png",
             alt: "Ms Tina Vinod",
@@ -183,17 +183,17 @@ const About = () => {
           },
           {
             src: "/clientImages/debashi.png",
-            alt: "Dr Debashi",
+            alt: "Dr Debeshi",
             className: "debashi",
           },
-          { src: "/clientImages/kiran.png", alt: "Dr kiran Rukadikar" },
+          { src: "/clientImages/kiran.png", alt: "Dr Kiran Rukadikar" },
           { src: "/clientImages/madhu.png", alt: "Dr Madhu Chopra" },
           {
             src: "/clientImages/shikha.png",
-            alt: "shikha Khanna",
+            alt: "Shikha Khanna",
             className: "debashi",
           },
-          { src: "/clientImages/shuti.jpeg", alt: "Dr shuti Khare Shukla" },
+          { src: "/clientImages/shuti.jpeg", alt: "Dr Stuti Khare Shukla" },
           {
             src: "/clientImages/Tina.png",
             alt: "Ms Tina Vinod",
@@ -260,8 +260,10 @@ const About = () => {
       </div>
 
       <h2 className="heading">Our Clients</h2>
-      <div className="body">{ImageScroller()}</div>
-      <div className="body">{OurClientsScroller()}</div>
+      <div className="scroller-container">
+        <div className="body">{ImageScroller()}</div>
+        <div className="body">{OurClientsScroller()}</div>
+      </div>
     </>
   );
 };

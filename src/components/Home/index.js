@@ -60,16 +60,16 @@ class Home extends Component {
               </a>
             </div>
             <div className="text">
-              <h1 className="textHeading">
+              <p className="textHeading">
                 We are dedicated to quality, creativity, and results-driven
                 strategies. Our team of experts work closely with you to
                 understand your goals and deliver customised solutions that
                 achieve your communication objectives with precision and impact.
-              </h1>
-              <h1 className="textHeading">
+              </p>
+              <p className="textHeading">
                 Discover our comprehensive array of services designed to elevate
                 your brand’s visibility and drive audience engagement.
-              </h1>
+              </p>
               {/* <h1 className='textHeading'>Our Motto: Energy, Respect, Passion, Integration</h1> */}
             </div>
             {/* <p className='email'>mediathings.pr@gmail.com</p> */}
