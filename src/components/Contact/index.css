@@ -101,7 +101,7 @@ h5:hover{
   background-color: #fff;
   border-radius: 9px;
   width: 16rem;
-  height: 12rem;
+  height: 7rem;
   margin-top: 2%;
   margin-bottom: 25px;
   padding: 2%;
@@ -145,6 +145,7 @@ h5:hover{
 .logo1 {
   width: 37px;
   height: 37px;
+  margin-right: 10px;
 }
 
 .structure {

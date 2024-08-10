@@ -1,5 +1,5 @@
 .specialEffect {
-  padding-top: 1%;
+  padding-top: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -200,7 +200,7 @@
 
 .aboutDescript {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px !important;
   margin: 10px;
   line-height: 1.5rem;
 }
@@ -213,7 +213,7 @@
 .heading {
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -469,6 +469,9 @@ ul {
 }
 
 @media (max-width: 768px) {
+  .centered-div{
+    width: 70% !important;
+  }
   .logo {
     padding-left: 0 !important;
     width: 70% !important;
@@ -498,6 +501,9 @@ ul {
 }
 
 @media (max-width: 576px) {
+  .centered-div{
+    width: 70% !important;
+  }
   .clientName.debashi {
     margin-left: 0 !important;
   }
@@ -554,7 +560,7 @@ p {
 }
 
 .centered-div {
-  width: 50%;
+  width: 50% ;
   text-align: center;
   /* background-color: #f9f9f9; Optional: Add background color */
   padding: 20px; /* Optional: Add padding */
