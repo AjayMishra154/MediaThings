@@ -142,20 +142,20 @@ const About = () => {
           },
           {
             src: "/clientImages/debashi.png",
-            alt: "Dr Debeshi",
+            alt: "Dr Debeshi Bhattacharjee",
             className: "debashi",
           },
-          { src: "/clientImages/kiran.png", alt: "Dr kiran Rukadikar" },
+          { src: "/clientImages/kiran.png", alt: "Dr Kiran Rukadikar" },
           { src: "/clientImages/madhu.png", alt: "Dr Madhu Chopra" },
           {
             src: "/clientImages/shikha.png",
             alt: "Shikha Khanna",
             className: "debashi",
           },
-          { src: "/clientImages/shuti.jpeg", alt: "Dr Shuti Khare Shukla" },
+          { src: "/clientImages/shuti.jpeg", alt: "Dr Stuti Khare Shukla" },
           {
             src: "/clientImages/Tina.png",
-            alt: "Ms Tina Vinod",
+            alt: "Tina Vinod",
             className: "debashi",
           },
           { src: "/clientImages/Trishna.png", alt: "Dr Trishna Gupte" },
@@ -183,7 +183,7 @@ const About = () => {
           },
           {
             src: "/clientImages/debashi.png",
-            alt: "Dr Debeshi",
+            alt: "Dr Debeshi Bhattacharjee",
             className: "debashi",
           },
           { src: "/clientImages/kiran.png", alt: "Dr Kiran Rukadikar" },
@@ -196,7 +196,7 @@ const About = () => {
           { src: "/clientImages/shuti.jpeg", alt: "Dr Stuti Khare Shukla" },
           {
             src: "/clientImages/Tina.png",
-            alt: "Ms Tina Vinod",
+            alt: "Tina Vinod",
             className: "debashi",
           },
           { src: "/clientImages/Trishna.png", alt: "Dr Trishna Gupte" },
