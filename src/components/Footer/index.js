@@ -83,8 +83,8 @@ const Footer = () => {
           <h2 className="footer-headline">Contact</h2>
           <div className="row">
             <ul>
-              <a href="tel:+919930270491" className="no-underline-link">
-                <li>+91 9930270491</li>
+              <a href="tel:+919987423546" className="no-underline-link">
+                <li>+91 9987423546</li>
               </a>
               <li>{MailComponent()}</li>
             </ul>
